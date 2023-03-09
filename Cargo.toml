@@ -8,7 +8,7 @@ default-run = "mt"
 [dependencies]
 clap = { version = "4.1.8", features = ["derive"] }
 crossbeam = "0.8.2"
-prql-compiler = "0.5.2"
+prql-compiler = "0.6.0"
 rayon = "1.7.0"
 rusqlite = { version = "0.28.0", features = ["bundled"] }
 serde = { version = "1.0.154", features = ["derive"] }
