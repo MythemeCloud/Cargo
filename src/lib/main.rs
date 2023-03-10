@@ -6,14 +6,13 @@ extern crate rusqlite;
 use clap::{Arg, ArgAction, Command as ClapCommand};
 use prql_compiler::{compile, sql::Dialect, Options, Target};
 use rayon::prelude::*;
-use rusqlite::{Connection, Result};
 
 fn parse_query(query: &str) -> (&str, String) {
 	let query_str = query.trim();
 
 	let query = compile(
 		&query_str,
-		Options {
+		&Options {
 			format: false,
 			target: Target::Sql(Some(Dialect::SQLite)),
 			signature_comment: false,

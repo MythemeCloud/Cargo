@@ -1,4 +1,3 @@
 fn main() {
 	mt::run()
 }
-
