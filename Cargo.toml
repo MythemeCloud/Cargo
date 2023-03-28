@@ -6,7 +6,7 @@ license = "MIT"
 default-run = "mt"
 
 [dependencies]
-clap = { version = "4.1.14", features = ["derive"] }
+clap = { version = "4.2.0", features = ["derive"] }
 crossbeam = "0.8.2"
 prql-compiler = "0.6.1"
 rayon = "1.7.0"
