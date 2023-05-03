@@ -6,9 +6,9 @@ license = "MIT"
 default-run = "mt"
 
 [dependencies]
-clap = { version = "4.2.5", features = ["derive"] }
+clap = { version = "4.2.7", features = ["derive"] }
 crossbeam = "0.8.2"
-prql-compiler = "0.8.0"
+prql-compiler = "0.8.1"
 rayon = "1.7.0"
 rusqlite = { version = "0.29.0", features = ["bundled"] }
 serde = { version = "1.0.160", features = ["derive"] }
