@@ -16,6 +16,7 @@ fn parse_query(query: &str) -> (&str, String) {
 			format: false,
 			target: Target::Sql(Some(Dialect::SQLite)),
 			signature_comment: false,
+			color: true,
 		},
 	)
 	.unwrap();
