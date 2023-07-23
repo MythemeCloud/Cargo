@@ -20,16 +20,12 @@ jobs:
             contents: read
             id-token: write
 
-        strategy:
-            matrix:
-                toolchain: ["stable", "nightly"]
-
         steps:
             - uses: actions/checkout@v3.5.3
             - uses: actions-rs/toolchain@v1.0.7
               with:
                   profile: minimal
-                  toolchain: ${{ matrix.toolchain }}
+                  toolchain: stable
 
             - uses: actions/cache@v3.3.1
               with:
