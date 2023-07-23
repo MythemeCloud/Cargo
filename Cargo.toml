@@ -1,7 +1,7 @@
 [package]
 name = "mytheme"
 version = "0.0.2"
-description = ""
+description = "Mytheme PRQL Query Compiler"
 license = "MIT"
 default-run = "mt"
 repository = "https://github.com/MythemeCloud/cargo.git"
