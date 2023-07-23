@@ -31,7 +31,7 @@ fn generate_types(query: &str, sql: String) {
 
 pub fn run() {
 	let matches = ClapCommand::new("Mytheme")
-		.version("0.0.1")
+		.version("0.0.2")
 		.arg(
 			Arg::new("parallel")
 				.short('p')

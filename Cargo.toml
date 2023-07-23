@@ -1,9 +1,10 @@
 [package]
 name = "mytheme"
-version = "0.0.1"
+version = "0.0.2"
 description = ""
 license = "MIT"
 default-run = "mt"
+repository = "https://github.com/MythemeCloud/cargo.git"
 
 [dependencies]
 clap = { version = "4.3.19", features = ["derive"] }
