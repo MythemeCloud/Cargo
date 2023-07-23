@@ -51,6 +51,6 @@ jobs:
               continue-on-error: true
               with:
                   command: publish
-                  args: --release --all-features --manifest-path ./Cargo.toml
+                  args: --manifest-path ./Cargo.toml
               env:
                   CARGO_REGISTRY_TOKEN: ${{ secrets.CARGO_REGISTRY_TOKEN }}
