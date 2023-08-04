@@ -20,7 +20,7 @@ serde_json = "1.0.104"
 
 [lib]
 name = "mt"
-path = "Source/Lib/main.rs"
+path = "Source/Library/main.rs"
 
 [[bin]]
 name = "mt"
