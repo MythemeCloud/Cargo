@@ -24,8 +24,8 @@ path = "Source/Library/main.rs"
 
 [[bin]]
 name = "mt"
-path = "Source/bin/mt.rs"
+path = "Source/Binary/mt.rs"
 
 [[bin]]
 name = "mytheme"
-path = "Source/bin/mytheme.rs"
+path = "Source/Binary/mytheme.rs"
