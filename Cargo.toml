@@ -6,6 +6,9 @@ license = "MIT"
 default-run = "mt"
 repository = "https://github.com/MythemeCloud/cargo.git"
 
+[build]
+target-dir = "Target"
+
 [dependencies]
 clap = { version = "4.3.19", features = ["derive"] }
 crossbeam = "0.8.2"
@@ -17,12 +20,12 @@ serde_json = "1.0.104"
 
 [lib]
 name = "mt"
-path = "Src/Lib/main.rs"
+path = "Source/Lib/main.rs"
 
 [[bin]]
 name = "mt"
-path = "Src/bin/mt.rs"
+path = "Source/bin/mt.rs"
 
 [[bin]]
 name = "mytheme"
-path = "Src/bin/mytheme.rs"
+path = "Source/bin/mytheme.rs"
