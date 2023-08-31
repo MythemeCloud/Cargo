@@ -1,5 +1,7 @@
 WITH
 	table_1 AS (
+
+
 		SELECT
 			title,
 			country,
