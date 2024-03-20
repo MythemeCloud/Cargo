@@ -10,7 +10,7 @@ repository = "https://github.com/MythemeCloud/cargo.git"
 target-dir = "Target"
 
 [dependencies]
-clap = { version = "4.5.1", features = ["derive"] }
+clap = { version = "4.5.3", features = ["derive"] }
 crossbeam = "0.8.4"
 prql-compiler = "0.11.3"
 rayon = "1.9.0"
