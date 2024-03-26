@@ -4,7 +4,7 @@ version = "0.0.2"
 description = "Mytheme PRQL Query Compiler"
 license-file = "LICENSE"
 default-run = "mt"
-repository = "HTTPS://GitHub.Com/MythemeCloud/cargo.git"
+repository = "https://github.com/MythemeCloud/cargo.git"
 
 [build]
 target-dir = "Target"
