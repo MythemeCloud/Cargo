@@ -1,9 +1,0 @@
-D:\Developer\Application\CodeEditorLand\Dependency\Target\debug\deps\libanstyle_parse-a898010ab8a1710b.rmeta: C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src/lib.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src\params.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src\state\mod.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src\state\definitions.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src\state\table.rs
-
-D:\Developer\Application\CodeEditorLand\Dependency\Target\debug\deps\anstyle_parse-a898010ab8a1710b.d: C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src/lib.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src\params.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src\state\mod.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src\state\definitions.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src\state\table.rs
-
-C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src/lib.rs:
-C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src\params.rs:
-C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src\state\mod.rs:
-C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src\state\definitions.rs:
-C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\anstyle-parse-0.2.5\src\state\table.rs:
