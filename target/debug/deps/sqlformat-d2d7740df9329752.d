@@ -1,0 +1,10 @@
+D:\Developer\Application\MythemeCloud\Cargo\target\debug\deps\libsqlformat-d2d7740df9329752.rmeta: C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src/lib.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\formatter.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\indentation.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\inline_block.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\params.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\tokenizer.rs
+
+D:\Developer\Application\MythemeCloud\Cargo\target\debug\deps\sqlformat-d2d7740df9329752.d: C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src/lib.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\formatter.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\indentation.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\inline_block.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\params.rs C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\tokenizer.rs
+
+C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src/lib.rs:
+C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\formatter.rs:
+C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\indentation.rs:
+C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\inline_block.rs:
+C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\params.rs:
+C:\Users\Nikola\.cargo\registry\src\index.crates.io-6f17d22bba15001f\sqlformat-0.2.6\src\tokenizer.rs:
