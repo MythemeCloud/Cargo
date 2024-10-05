@@ -7,16 +7,16 @@ use clap::{Arg, ArgAction, Command as ClapCommand};
 use prql_compiler::{compile, sql::Dialect, Options, Target};
 use rayon::prelude::*;
 
-fn parse_query(query: &str) -> (&str, String) {
+fn parse_query(query:&str) -> (&str, String) {
 	let query_str = query.trim();
 
 	let query = compile(
 		&query_str,
 		&Options {
-			format: false,
-			target: Target::Sql(Some(Dialect::SQLite)),
-			signature_comment: false,
-			color: true,
+			format:false,
+			target:Target::Sql(Some(Dialect::SQLite)),
+			signature_comment:false,
+			color:true,
 		},
 	)
 	.unwrap();
@@ -24,7 +24,7 @@ fn parse_query(query: &str) -> (&str, String) {
 	(query_str, query)
 }
 
-fn generate_types(query: &str, sql: String) {
+fn generate_types(query:&str, sql:String) {
 	println!("Query: {}", query);
 	println!("SQL: {}", sql);
 }
@@ -57,15 +57,22 @@ pub fn run() {
 
 	let prql = std::fs::read_to_string(file).unwrap();
 
-	let queries: Vec<(&str, String)> =
-		prql.split(';').filter(|query| !query.trim().is_empty()).map(parse_query).collect();
+	let queries:Vec<(&str, String)> = prql
+		.split(';')
+		.filter(|query| !query.trim().is_empty())
+		.map(parse_query)
+		.collect();
 
 	match parallel {
-		true => queries.par_iter().for_each(|(query, sql)| {
-			println!("{:?}", generate_types(query, sql.to_string()));
-		}),
-		false => queries.iter().for_each(|(query, sql)| {
-			println!("{:?}", generate_types(query, sql.to_string()));
-		}),
+		true => {
+			queries.par_iter().for_each(|(query, sql)| {
+				println!("{:?}", generate_types(query, sql.to_string()));
+			})
+		},
+		false => {
+			queries.iter().for_each(|(query, sql)| {
+				println!("{:?}", generate_types(query, sql.to_string()));
+			})
+		},
 	}
 }
