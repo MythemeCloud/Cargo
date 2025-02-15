@@ -1,10 +1,10 @@
-[package]
+[[bin]]
+name = "mt"
+path = "Source/Binary/mt.rs"
+
+[[bin]]
 name = "mytheme"
-version = "0.0.2"
-description = "Mytheme PRQL Query Compiler"
-license-file = "LICENSE"
-default-run = "mt"
-repository = "https://github.com/MythemeCloud/cargo.git"
+path = "Source/Binary/mytheme.rs"
 
 [build]
 target-dir = "Target"
@@ -19,17 +19,17 @@ serde = { version = "1.0.217", features = ["derive"] }
 serde_json = { version = "1.0.138" }
 unbug = { version = "0.4.0" }
 
+[features]
+default = []
+
 [lib]
 name = "mt"
 path = "Source/Library/main.rs"
 
-[[bin]]
-name = "mt"
-path = "Source/Binary/mt.rs"
-
-[[bin]]
+[package]
+default-run = "mt"
+description = "Mytheme PRQL Query Compiler"
+license-file = "LICENSE"
 name = "mytheme"
-path = "Source/Binary/mytheme.rs"
-
-[features]
-default = []
+repository = "https://github.com/MythemeCloud/cargo.git"
+version = "0.0.2"
