@@ -6,11 +6,8 @@ path = "Source/Binary/mt.rs"
 name = "mytheme"
 path = "Source/Binary/mytheme.rs"
 
-[build]
-target-dir = "Target"
-
 [dependencies]
-clap = { version = "4.5.27", features = ["derive"] }
+clap = { version = "4.5.30", features = ["derive"] }
 crossbeam = { version = "0.8.4" }
 prql-compiler = "0.12.2"
 rayon = { version = "1.10.0" }
@@ -33,3 +30,4 @@ license-file = "LICENSE"
 name = "mytheme"
 repository = "https://github.com/MythemeCloud/cargo.git"
 version = "0.0.2"
+edition = "2024"
