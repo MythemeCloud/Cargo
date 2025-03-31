@@ -1,1 +1,3 @@
-fn main() { mt::run() }
+fn main() {
+	mt::run()
+}
